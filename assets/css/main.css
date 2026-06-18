@@ -1285,7 +1285,7 @@ li.search .open-search i {
 
 .service-item {
   text-align: center;
-  padding: 30px;
+  padding: 26px;
   margin: 15px 0;
   background: #fff;
   -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
@@ -2200,10 +2200,11 @@ button:focus {
   -webkit-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
-  padding: 15px;
+  padding: 35px;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  text-align: center;
 }
 
 #blog .blog-item-wrapper:hover {
@@ -2214,10 +2215,11 @@ button:focus {
 
 #blog .blog-item-img {
   position: relative;
+  text-align: center;
 }
 
 #blog .blog-item-img img {
-  width: 100%;
+  width: 50%;
 }
 
 #blog .blog-item-text {
@@ -2227,10 +2229,16 @@ button:focus {
 #blog .blog-item-text h3 {
   font-size: 18px;
   line-height: 30px;
+  text-align: center;
 }
 
 #blog .blog-item-text h3 a {
   color: #555;
+}
+
+.blog-item-img img {
+  height: 135px;
+  margin-bottom: 20px;
 }
 
 #blog .blog-item-text .blog-one-footer {
