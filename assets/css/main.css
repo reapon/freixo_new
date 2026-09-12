@@ -16,6 +16,10 @@ body {
   backface-visibility: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .roof-menu ul li.active a:hover,
 .roof-menu ul li a:hover {
   opacity: 0.8;
